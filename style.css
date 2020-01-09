@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin: 15px;
+    background-color: grey;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shop{
+    display: flex;
+    border: 1px dotted black;
+    width: 30%;
+    margin-left: 10px;
+    padding: 3px;
+}
